@@ -41,6 +41,7 @@ $(document).ready(function () {
     const result = divide(number1, number2);
     $("#output").text(result);
   });
+  //user interface for multiplication
   $("form#multiply").submit(function (event) {
     event.preventDefault();
     const number1 = parseFloat($("#mult1").val());
